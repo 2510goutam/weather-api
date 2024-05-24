@@ -1,0 +1,28 @@
+body{
+    
+    background-image: url("../images/sky-background-video-conferencing_23-2148639325.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+.container{
+    margin-top: 25vh;
+    text-align: center;
+}
+.result{
+    font-weight: bolder;
+}
+button,input{
+ border-radius: 50px;
+ font-size: large;
+}
+.error{
+    font-weight: bolder;
+    color: red;
+}
+/* Media query for 16:9 aspect ratio */
+@media (aspect-ratio: 16/9) {
+  body {
+    background-image: url('16-9-image.jpg');
+  }
+}
